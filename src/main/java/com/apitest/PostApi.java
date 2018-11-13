@@ -1,4 +1,4 @@
-package com.quickstart.apitest;
+package com.apitest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.ws.rs.core.MediaType;
 
 @Controller
-public class postApi {
+public class PostApi {
     @RequestMapping(
             value = "/postpayload",
             method = RequestMethod.POST,

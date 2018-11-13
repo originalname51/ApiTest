@@ -1,12 +1,12 @@
-package com.quickstart.apitest;
+package com.apitest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApitestApplication {
+public class MainClass {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApitestApplication.class, args);
+        SpringApplication.run(MainClass.class, args);
     }
 }

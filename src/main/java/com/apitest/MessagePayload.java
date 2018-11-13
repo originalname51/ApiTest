@@ -1,4 +1,4 @@
-package com.quickstart.apitest;
+package com.apitest;
 
 public class MessagePayload {
 
